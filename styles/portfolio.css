@@ -1,4 +1,6 @@
 /* Header Area */
+
+
 header{
     /* Hero-bg */
     position: absolute;
@@ -6,9 +8,9 @@ header{
     height: 600px;
     left: 0;
     right: 0;
+    background-size: cover;
     background:url("../images/Hero-bg.png");
 }
-
 .banner{
     /* Frame 4 */
     position: absolute;
@@ -136,7 +138,11 @@ header{
 }
 
 
-/* Main area */
+
+
+/* Main dev area */
+
+
 .font-2{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -382,6 +388,9 @@ header{
     margin: 32px 0px;
 }
 
+
+
+
 /* Video section */
 .inspire{
     /* Frame 15 */
@@ -430,6 +439,9 @@ iframe{
 }
 
 
+
+
+
 /* Support area */
 .support-font{
     color: rgb(255, 255, 255);
@@ -467,6 +479,7 @@ iframe{
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
     background: url('../images/handshake.jpg');
+    background-size: cover;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
 
@@ -589,6 +602,8 @@ iframe{
 
 
 /* Footer area */
+
+
 footer{
     /* Frame 21 */
     position: absolute;
