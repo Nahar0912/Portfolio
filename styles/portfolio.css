@@ -6,8 +6,9 @@ header{
     height: 600px;
     left: 0;
     right: 0;
-    background:url("/images/Hero-bg.png");
+    background:url("../images/Hero-bg.png");
 }
+
 .banner{
     /* Frame 4 */
     position: absolute;
@@ -68,27 +69,27 @@ header{
 .btn{
     /* Frame 2 */
     position: static;
-    width: 208px;
-    height: 66px;
+    width: 190px;
+    height: 60px;
     /* Auto layout */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: aliceblue;
     /* Inside Auto Layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 32px 0px;
-    border-radius: 8px;
-    color: aliceblue;
-    background: rgb(13, 19, 33);
+    margin: 37px 0px;
 }
 .font{
-   /* "In the near future, I hope to become a Developer." */
+    /* "In the near future, I hope to become a Developer." */
     position: static;
-    width: 900px;
+    width: 998px;
     height: 100px;
     /* Auto layout */
     display: flex;
@@ -96,23 +97,75 @@ header{
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-/* Inside Auto Layout */
+    /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 15px 0px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 800;
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
 }
-.font-2{
+.p-1{
     position: static;
-    width: 700px;
-    height: 52px;
+    width: 850px;
+    height: 30px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+
+/* Main area */
+.font-2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* Why Web Development?? */
+    position: static;
+    width: 852px;
+    height: 39px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+.p-2{
+    position: static;
+    width: 900px;
+    height: 30px;
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -122,21 +175,85 @@ header{
     /* Inside Auto Layout */
     flex: none;
     order: 1;
+    align-self: stretch;
     flex-grow: 0;
-    margin: 24px 0px;
-}
-
-
-
-/* Main area */
-.font-3{
+    margin: 30px 0px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
+}
+.font-3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 850;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+    width: 400px;
+    height: 70px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.p-3{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+    position: static;
+    width: 468px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.dev-btn{
+    /* Frame 7 */
+    position: static;
+    width: 150px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
 }
 .dev-section{
    /* Frame 13 */
@@ -171,13 +288,14 @@ header{
     order: 0;
     flex-grow: 0;
     margin: 0px 5px;
-    background-color: blueviolet;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
 }
 .dev-container-area-1{
     /* Frame 5 */
     position: static;
     width: 950px;
-    height: 115px;
+    height: 170px;
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -228,6 +346,23 @@ header{
     flex-grow: 0;
     margin: 20px 0px; 
 }
+.dev-text-area{
+    /* Frame 9 */
+    position: static;
+    width: 477px;
+    height: 220px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
 .dev-inside-area-2{
    /* Frame 10 */
     position: static;
@@ -263,7 +398,6 @@ header{
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    background-color: aquamarine;
 }
 .inpire-text{
     /* Frame 5 */
@@ -282,6 +416,18 @@ header{
     flex-grow: 0;
     margin: 48px 0px;
 }
+iframe{
+    /* Rectangle 1 */
+    position: static;
+    width: 950px;
+    height: 450px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 50px;
+}
 
 
 /* Support area */
@@ -298,7 +444,7 @@ header{
 .support-p{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -434,17 +580,20 @@ header{
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 16px;
+    margin: 0px 5px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+
+
+
 
 /* Footer area */
 footer{
     /* Frame 21 */
     position: absolute;
     width: 1049px;
-    height: 100px;
+    height: 20px;
     left: 0px;
     top: 3300px;
     /* Auto layout */
@@ -454,5 +603,69 @@ footer{
     align-items: flex-start;
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
-    background-color:aqua;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-section{
+    /* Frame 24 */
+    position: static;
+    width: 1060px;
+    height: 36px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+.footer-text{
+    /* Frame 6 */
+    position: static;
+    width: 456px;
+    height: 24px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.icon{
+    /* Frame 25 */
+    position: static;
+    width: 157.01px;
+    height: 36px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.icon-img{
+    /* Group 11 */
+    position: static;
+    width: 30px;
+    height: 30px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 15px;
 }
