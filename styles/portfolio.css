@@ -285,6 +285,25 @@ header{
 
 
 /* Support area */
+.support-font{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.support-p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 .support{
     /* Frame 8 */
     position: absolute;
@@ -341,7 +360,6 @@ header{
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
-    background-color: aqua;
 }
 
 .support-text{
@@ -358,6 +376,24 @@ header{
     /* Inside Auto Layout */
     flex: none;
     order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.support-btn{
+    /* Frame 23 */
+    position: static;
+    width: 684px;
+    height: 58px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
     flex-grow: 0;
     margin: 24px 0px;
 }
@@ -387,7 +423,7 @@ header{
     /* Frame 8 */
     position: static;
     width: 120px;
-    height: 58px;
+    height: 50px;
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -401,4 +437,22 @@ header{
     margin: 0px 16px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+}
+
+/* Footer area */
+footer{
+    /* Frame 21 */
+    position: absolute;
+    width: 1049px;
+    height: 100px;
+    left: 0px;
+    top: 3300px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background-color:aqua;
 }
